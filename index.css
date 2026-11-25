@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+*{
+    color:white;
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:40em;
+    border-bottom:1px solid  white;
+}
+article{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    gap :30px;
+    
+}
+.portada{
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+a{
+    text-decoration: none;
+}
+.hola{
+    text-align: center;
+    border:1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.hola:hover{
+    transform: scale(1.1);  
+}
