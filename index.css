@@ -1,17 +1,20 @@
 body{
     margin:0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
+    
 }
 *{
-    color:white;
+    
 }
 header{
+    background: #f50000;
+    background: radial-gradient(circle,rgba(245, 0, 0, 1) 0%, rgba(102, 0, 10, 1) 100%);
+    color:white;
     display:flex;
     align-items: center;
     justify-content: center;
     height:40em;
-    border-bottom:1px solid  white;
+    box-shadow: 4px 5px 20px 3px #8c8c8c
 }
 article{
     display: flex;
@@ -27,13 +30,14 @@ article{
 }
 a{
     text-decoration: none;
+    color:black;
 }
 .hola{
     text-align: center;
-    border:1px solid white;
     border-radius: 20px;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
+    box-shadow: 4px 5px 20px -3px #8c8c8c
 }
 .hola:hover{
     transform: scale(1.1);  
